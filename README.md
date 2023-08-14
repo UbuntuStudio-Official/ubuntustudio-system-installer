@@ -1,6 +1,6 @@
-# Ubuntu Flavor Installer
+# Ubuntu Budgie Installer
 
-[Ubuntu Desktop Installer](https://github.com/canonical/ubuntu-desktop-installer)
+Created from [Ubuntu Flavor Installer](https://github.com/canonical/ubuntu-flavor-installer)
 starting point for Ubuntu flavors.
 
 ![screenshot](.github/screenshot.png)
