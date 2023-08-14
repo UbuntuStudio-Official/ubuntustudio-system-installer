@@ -26,7 +26,7 @@ apps:
   ubuntu-budgie-installer:
     command: bin/ubuntu-budgie-installer
     command-chain: [bin/launcher]
-    desktop: bin/data/flutter_assets/assets/ubuntu-flavor-installer.desktop
+    desktop: bin/data/flutter_assets/assets/ubuntu-budgie-installer.desktop
     environment:
       PATH: $SNAP/usr/bin:$SNAP/bin:$PATH
       LIBGL_DRIVERS_PATH: $SNAP/usr/lib/$CRAFT_ARCH_TRIPLET/dri

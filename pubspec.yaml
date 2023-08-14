@@ -1,5 +1,5 @@
-name: ubuntu_flavor_installer
-description: Ubuntu Flavor Installer
+name: ubuntu_budgie_installer
+description: Ubuntu Budgie Installer
 publish_to: 'none'
 
 environment:
