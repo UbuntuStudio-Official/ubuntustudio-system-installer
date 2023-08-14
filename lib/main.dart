@@ -10,10 +10,10 @@ Future<void> main(List<String> args) {
     args,
     flavor: const UbuntuFlavor(
       id: 'ubuntu-flavor',
-      name: 'Ubuntu FLAVOR',
+      name: 'Ubuntu Budgie',
     ),
-    theme: yaruMagentaLight,
-    darkTheme: yaruMagentaDark,
+    theme: yaruBlueLight,
+    darkTheme: yaruBlueDark,
     localizationsDelegates: AppLocalizations.localizationsDelegates,
     slides: installationSlides,
   );

@@ -1,14 +1,14 @@
-name: ubuntu-flavor-installer
+name: ubuntu-budgie-installer
 version: git
-summary: Ubuntu Flavor Installer
+summary: Ubuntu Budgie Installer
 description: |
-  This project is a modern implementation of the Ubuntu Flavor installer,
+  This project is a modern implementation of the Ubuntu Budgie installer,
   using subiquity as a backend and Flutter for the UI.
 grade: stable
 confinement: classic
 base: core22
-issues: https://bugs.launchpad.net/ubuntu-flavor-installer/+filebug
-contact: https://bugs.launchpad.net/ubuntu-flavor-installer/+filebug
+issues: https://bugs.launchpad.net/ubuntu-budgie-installer/+filebug
+contact: https://bugs.launchpad.net/ubuntu-budgie-installer/+filebug
 
 apps:
   subiquity-server:
@@ -23,8 +23,8 @@ apps:
   subiquity-loadkeys:
     command: bin/subiquity/bin/subiquity-loadkeys
 
-  ubuntu-flavor-installer:
-    command: bin/ubuntu-flavor-installer
+  ubuntu-budgie-installer:
+    command: bin/ubuntu-budgie-installer
     command-chain: [bin/launcher]
     desktop: bin/data/flutter_assets/assets/ubuntu-flavor-installer.desktop
     environment:
@@ -147,7 +147,7 @@ parts:
       - zip
     override-prime: ''
 
-  ubuntu-flavor-installer:
+  ubuntu-budgie-installer:
     after: [flutter-git]
     source: .
     source-type: git
