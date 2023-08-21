@@ -2,8 +2,8 @@ bootstrap:
   pages:
     - locale
     - keyboard
-    - source
-    - storage
     - network
     - timezone
     - identity
+    - source
+    - storage
