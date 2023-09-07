@@ -9,7 +9,7 @@ Future<void> main(List<String> args) {
   return runInstallerApp(
     args,
     flavor: const UbuntuFlavor(
-      id: 'ubuntu-flavor',
+      id: 'ubuntu-budgie',
       name: 'Ubuntu Budgie',
     ),
     theme: yaruBlueLight,
