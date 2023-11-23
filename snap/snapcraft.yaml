@@ -180,6 +180,7 @@ parts:
       - libegl-mesa0
       - libegl1
       - libgl1
+      - libelf1
       - libglib2.0-0
       - libglib2.0-dev
       - libgtk-3-0
