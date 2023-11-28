@@ -1,4 +1,4 @@
-name: ubuntu-budgie-installer
+name: ubuntustudio-system-installer
 version: git
 summary: Ubuntu Studio System Installer
 description: |
@@ -24,9 +24,9 @@ apps:
     command: bin/subiquity/bin/subiquity-loadkeys
 
   ubuntu-budgie-installer:
-    command: bin/ubuntu-budgie-installer
+    command: bin/ubuntustudio-system-installer
     command-chain: [bin/launcher]
-    desktop: bin/data/flutter_assets/assets/ubuntu-budgie-installer.desktop
+    desktop: bin/data/flutter_assets/assets/ubuntustudio-system-installer.desktop
     environment:
       PATH: $SNAP/usr/bin:$SNAP/bin:$PATH
       LIBGL_DRIVERS_PATH: $SNAP/usr/lib/$CRAFT_ARCH_TRIPLET/dri
