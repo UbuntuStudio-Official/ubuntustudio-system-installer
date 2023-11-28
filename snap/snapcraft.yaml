@@ -1,14 +1,14 @@
 name: ubuntu-budgie-installer
 version: git
-summary: Ubuntu Budgie Installer
+summary: Ubuntu Studio System Installer
 description: |
-  This project is a modern implementation of the Ubuntu Budgie installer,
-  using subiquity as a backend and Flutter for the UI.
+  This project is a modern implementation of the Ubuntu Studio System
+  installer, using subiquity as a backend and Flutter for the UI.
 grade: stable
 confinement: classic
 base: core22
-issues: https://bugs.launchpad.net/ubuntu-budgie-installer/+filebug
-contact: https://bugs.launchpad.net/ubuntu-budgie-installer/+filebug
+issues: https://bugs.launchpad.net/ubuntustudio-system-installer/+filebug
+contact: https://bugs.launchpad.net/ubuntustudio-system-installer/+filebug
 
 apps:
   subiquity-server:

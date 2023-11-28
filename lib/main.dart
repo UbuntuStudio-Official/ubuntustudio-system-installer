@@ -9,8 +9,8 @@ Future<void> main(List<String> args) {
   return runInstallerApp(
     args,
     flavor: const UbuntuFlavor(
-      id: 'ubuntu-budgie',
-      name: 'Ubuntu Budgie',
+      id: 'ubuntustudio',
+      name: 'Ubuntu Studio',
     ),
     theme: yaruBlueLight,
     darkTheme: yaruBlueDark,
