@@ -262,13 +262,3 @@ parts:
       sed -i 's/mkdir "$tmpmnt"/mkdir -p "$tmpmnt"/' \
           usr/lib/os-probes/50mounted-tests
 
-  hack-schemas:
-    plugin: nil
-    build-packages:
-      - libglib2.0-bin
-      - wget
-    override-prime: |
-      wget https://raw.githubusercontent.com/UbuntuBudgie/experimental/master/org.gnome.shell.extensions.ding.gschema.xml
-      mkdir -p $CRAFT_PRIME/usr/share/glib-2.0/schemas
-      mv org.gnome.shell.extensions.ding.gschema.xml $CRAFT_PRIME/usr/share/glib-2.0/schemas
-      glib-compile-schemas $CRAFT_PRIME/usr/share/glib-2.0/schemas/
