@@ -21,7 +21,7 @@ final installationSlides = [
 Widget _buildWelcomeSlide(BuildContext context) {
   return Stack(
     children: [
-      Image.asset('assets/slides/ub_background.png'),
+      Image.asset('assets/slides/us_background.png'),
       Padding(
         padding: const EdgeInsets.all(40),
         child: FractionallySizedBox(
@@ -45,7 +45,7 @@ Widget _buildWelcomeSlide(BuildContext context) {
 Widget _buildDesktopSlide(BuildContext context) {
   return Stack(
     children: [
-      Image.asset('assets/slides/ub_background.png'),
+      Image.asset('assets/slides/us_background.png'),
       Padding(
         padding: const EdgeInsets.all(60),
         child: Row(
@@ -85,7 +85,7 @@ Widget _buildDesktopSlide(BuildContext context) {
 Widget _buildBrowserSlide(BuildContext context) {
   return Stack(
     children: [
-      Image.asset('assets/slides/ub_background.png'),
+      Image.asset('assets/slides/us_background.png'),
       Padding(
         padding: const EdgeInsets.all(60),
         child: Row(
@@ -124,7 +124,7 @@ Widget _buildBrowserSlide(BuildContext context) {
 Widget _buildOfficeSlide(BuildContext context) {
   return Stack(
     children: [
-      Image.asset('assets/slides/ub_background.png'),
+      Image.asset('assets/slides/us_background.png'),
       Padding(
         padding: const EdgeInsets.all(60),
         child: Row(
@@ -163,7 +163,7 @@ Widget _buildOfficeSlide(BuildContext context) {
 Widget _buildMediaSlide(BuildContext context) {
   return Stack(
     children: [
-      Image.asset('assets/slides/ub_background.png'),
+      Image.asset('assets/slides/us_background.png'),
       Padding(
         padding: const EdgeInsets.all(60),
         child: Row(
@@ -202,7 +202,7 @@ Widget _buildMediaSlide(BuildContext context) {
 Widget _buildPhotoSlide(BuildContext context) {
   return Stack(
     children: [
-      Image.asset('assets/slides/ub_background.png'),
+      Image.asset('assets/slides/us_background.png'),
       Padding(
         padding: const EdgeInsets.all(60),
         child: Row(
@@ -241,7 +241,7 @@ Widget _buildPhotoSlide(BuildContext context) {
 Widget _buildSoftwareSlide(BuildContext context) {
   return Stack(
     children: [
-      Image.asset('assets/slides/ub_background.png'),
+      Image.asset('assets/slides/us_background.png'),
       Padding(
         padding: const EdgeInsets.all(60),
         child: Row(
@@ -280,7 +280,7 @@ Widget _buildSoftwareSlide(BuildContext context) {
 Widget _buildGetHelpSlide(BuildContext context) {
   return Stack(
     children: [
-      Image.asset('assets/slides/ub_background.png'),
+      Image.asset('assets/slides/us_background.png'),
       Center(
         child: Html(
           shrinkWrap: true,
