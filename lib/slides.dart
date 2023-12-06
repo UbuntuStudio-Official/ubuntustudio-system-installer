@@ -9,11 +9,10 @@ const bodyStyle = TextStyle(color: Colors.white, fontSize: 18);
 
 final installationSlides = [
   _buildWelcomeSlide,
-  _buildDesktopSlide,
-  _buildBrowserSlide,
-  _buildOfficeSlide,
-  _buildPhotoSlide,
-  _buildMediaSlide,
+  _buildAudioSlide,
+  _buildVideoSlide,
+  _buildGraphicsSlide,
+  _buildPhotographySlide,
   _buildSoftwareSlide,
   _buildGetHelpSlide,
 ];
@@ -42,7 +41,7 @@ Widget _buildWelcomeSlide(BuildContext context) {
   );
 }
 
-Widget _buildDesktopSlide(BuildContext context) {
+Widget _buildAudioSlide(BuildContext context) {
   return Stack(
     children: [
       Image.asset('assets/slides/us_background.png'),
@@ -59,7 +58,7 @@ Widget _buildDesktopSlide(BuildContext context) {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Text(
-                  context.l10n.desktopSlideBody,
+                  context.l10n.audioSlideBody,
                   style: bodyStyle,
                 ),
               ),
@@ -68,9 +67,9 @@ Widget _buildDesktopSlide(BuildContext context) {
               child: Align(
                 alignment: FractionalOffset(1, 0.75),
                 child: SizedBox(
-                  width: 448,
-                  height: 304,
-                  child: Image.asset('assets/slides/desktop.png'),
+                  width: 450,
+                  height: 410,
+                  child: Image.asset('assets/slides/audio.png'),
                 ),
               ),
             ),
@@ -82,7 +81,7 @@ Widget _buildDesktopSlide(BuildContext context) {
 }
 
 
-Widget _buildBrowserSlide(BuildContext context) {
+Widget _buildVideoSlide(BuildContext context) {
   return Stack(
     children: [
       Image.asset('assets/slides/us_background.png'),
@@ -99,7 +98,7 @@ Widget _buildBrowserSlide(BuildContext context) {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Text(
-                  context.l10n.browseSlideBody,
+                  context.l10n.videoSlideBody,
                   style: bodyStyle,
                 ),
               ),
@@ -108,9 +107,9 @@ Widget _buildBrowserSlide(BuildContext context) {
               child: Align(
                 alignment: FractionalOffset(1, 0.75),
                 child: SizedBox(
-                  width: 448,
-                  height: 304,
-                  child: Image.asset('assets/slides/browse.png'),
+                  width: 450,
+                  height: 410,
+                  child: Image.asset('assets/slides/video.png'),
                 ),
               ),
             ),
@@ -121,7 +120,7 @@ Widget _buildBrowserSlide(BuildContext context) {
   );
 }
 
-Widget _buildOfficeSlide(BuildContext context) {
+Widget _buildGraphicsSlide(BuildContext context) {
   return Stack(
     children: [
       Image.asset('assets/slides/us_background.png'),
@@ -138,7 +137,7 @@ Widget _buildOfficeSlide(BuildContext context) {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Text(
-                  context.l10n.officeSlideBody,
+                  context.l10n.graphicsSlideBody,
                   style: bodyStyle,
                 ),
               ),
@@ -147,9 +146,9 @@ Widget _buildOfficeSlide(BuildContext context) {
               child: Align(
                 alignment: FractionalOffset(1, 0.75),
                 child: SizedBox(
-                  width: 448,
-                  height: 304,
-                  child: Image.asset('assets/slides/office.png'),
+                  width: 450,
+                  height: 410,
+                  child: Image.asset('assets/slides/graphics.png'),
                 ),
               ),
             ),
@@ -160,7 +159,7 @@ Widget _buildOfficeSlide(BuildContext context) {
   );
 }
 
-Widget _buildMediaSlide(BuildContext context) {
+Widget _buildPhotographySlide(BuildContext context) {
   return Stack(
     children: [
       Image.asset('assets/slides/us_background.png'),
@@ -177,7 +176,7 @@ Widget _buildMediaSlide(BuildContext context) {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Text(
-                  context.l10n.mediaSlideBody,
+                  context.l10n.photographySlideBody,
                   style: bodyStyle,
                 ),
               ),
@@ -186,48 +185,9 @@ Widget _buildMediaSlide(BuildContext context) {
               child: Align(
                 alignment: FractionalOffset(1, 0.75),
                 child: SizedBox(
-                  width: 448,
-                  height: 304,
-                  child: Image.asset('assets/slides/media.png'),
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
-    ],
-  );
-}
-
-Widget _buildPhotoSlide(BuildContext context) {
-  return Stack(
-    children: [
-      Image.asset('assets/slides/us_background.png'),
-      Padding(
-        padding: const EdgeInsets.all(60),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Expanded(
-              child: Container(
-                padding: const EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.2),
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Text(
-                  context.l10n.photosSlideBody,
-                  style: bodyStyle,
-                ),
-              ),
-            ),
-            Expanded(
-              child: Align(
-                alignment: FractionalOffset(1, 0.75),
-                child: SizedBox(
-                  width: 448,
-                  height: 304,
-                  child: Image.asset('assets/slides/photos.png'),
+                  width: 450,
+                  height: 410,
+                  child: Image.asset('assets/slides/photography.png'),
                 ),
               ),
             ),
@@ -264,8 +224,8 @@ Widget _buildSoftwareSlide(BuildContext context) {
               child: Align(
                 alignment: FractionalOffset(1, 0.75),
                 child: SizedBox(
-                  width: 448,
-                  height: 304,
+                  width: 450,
+                  height: 410,
                   child: Image.asset('assets/slides/software.png'),
                 ),
               ),
