@@ -23,7 +23,7 @@ apps:
   subiquity-loadkeys:
     command: bin/subiquity/bin/subiquity-loadkeys
 
-  ubuntu-budgie-installer:
+  ubuntustudio-system-installer:
     command: bin/ubuntustudio-system-installer
     command-chain: [bin/launcher]
     desktop: bin/data/flutter_assets/assets/ubuntustudio-system-installer.desktop
@@ -150,7 +150,7 @@ parts:
       - zip
     override-prime: ""
 
-  ubuntu-budgie-installer:
+  ubuntustudio-system-installer:
     after: [flutter-git]
     source: .
     source-type: git
