@@ -1,5 +1,5 @@
-name: ubuntu_budgie_installer
-description: Ubuntu Budgie Installer
+name: ubuntustudio_system_installer
+description: Ubuntu Studio System Installer
 publish_to: 'none'
 
 environment:
