@@ -2,6 +2,7 @@ bootstrap:
   pages:
     - locale
     - keyboard
+    - welcome
     - network
     - timezone
     - identity
