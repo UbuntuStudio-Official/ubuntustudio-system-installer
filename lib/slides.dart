@@ -47,31 +47,41 @@ Widget _buildAudioSlide(BuildContext context) {
       Image.asset('assets/slides/us_background.png'),
       Padding(
         padding: const EdgeInsets.all(60),
-        child: Row(
+        child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Expanded(
-              child: Container(
-                padding: const EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.2),
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Text(
-                  context.l10n.audioSlideBody,
-                  style: bodyStyle,
-                ),
+            Container(
+              padding: const EdgeInsets.all(10),
+              child: Text(
+                context.l10n.audioSlideTitle,
+                style: headerStyle
               ),
             ),
-            Expanded(
-              child: Align(
-                alignment: FractionalOffset(1, 0.75),
-                child: SizedBox(
-                  width: 450,
-                  height: 410,
-                  child: Image.asset('assets/slides/audio.png'),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(
+                  child: Container(
+                    padding: const EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.white.withOpacity(0.2),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Text(
+                      context.l10n.audioSlideBody,
+                      style: bodyStyle,
+                    ),
+                  ),
                 ),
-              ),
+                Container(
+                  padding: const EdgeInsets.all(10),
+                  child: SizedBox(
+                    width: 450,
+                    height: 410,
+                    child: Image.asset('assets/slides/audio.png'),
+                  ),
+                ),
+              ],
             ),
           ],
         ),
@@ -80,38 +90,47 @@ Widget _buildAudioSlide(BuildContext context) {
   );
 }
 
-
 Widget _buildVideoSlide(BuildContext context) {
   return Stack(
     children: [
       Image.asset('assets/slides/us_background.png'),
       Padding(
         padding: const EdgeInsets.all(60),
-        child: Row(
+        child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Expanded(
-              child: Container(
-                padding: const EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.2),
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Text(
-                  context.l10n.videoSlideBody,
-                  style: bodyStyle,
-                ),
+            Container(
+              padding: const EdgeInsets.all(10),
+              child: Text(
+                context.l10n.videoSlideTitle,
+                style: headerStyle
               ),
             ),
-            Expanded(
-              child: Align(
-                alignment: FractionalOffset(1, 0.75),
-                child: SizedBox(
-                  width: 450,
-                  height: 410,
-                  child: Image.asset('assets/slides/video.png'),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(
+                  child: Container(
+                    padding: const EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.white.withOpacity(0.2),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Text(
+                      context.l10n.videoSlideBody,
+                      style: bodyStyle,
+                    ),
+                  ),
                 ),
-              ),
+                Container(
+                  padding: const EdgeInsets.all(10),
+                  child: SizedBox(
+                    width: 450,
+                    height: 410,
+                    child: Image.asset('assets/slides/video.png'),
+                  ),
+                ),
+              ],
             ),
           ],
         ),
@@ -126,31 +145,41 @@ Widget _buildGraphicsSlide(BuildContext context) {
       Image.asset('assets/slides/us_background.png'),
       Padding(
         padding: const EdgeInsets.all(60),
-        child: Row(
+        child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Expanded(
-              child: Container(
-                padding: const EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.2),
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Text(
-                  context.l10n.graphicsSlideBody,
-                  style: bodyStyle,
-                ),
+            Container(
+              padding: const EdgeInsets.all(10),
+              child: Text(
+                context.l10n.graphicsSlideTitle,
+                style: headerStyle
               ),
             ),
-            Expanded(
-              child: Align(
-                alignment: FractionalOffset(1, 0.75),
-                child: SizedBox(
-                  width: 450,
-                  height: 410,
-                  child: Image.asset('assets/slides/graphics.png'),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(
+                  child: Container(
+                    padding: const EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.white.withOpacity(0.2),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Text(
+                      context.l10n.graphicsSlideBody,
+                      style: bodyStyle,
+                    ),
+                  ),
                 ),
-              ),
+                Container(
+                  padding: const EdgeInsets.all(10),
+                  child: SizedBox(
+                    width: 450,
+                    height: 410,
+                    child: Image.asset('assets/slides/graphics.png'),
+                  ),
+                ),
+              ],
             ),
           ],
         ),
@@ -165,31 +194,41 @@ Widget _buildPhotographySlide(BuildContext context) {
       Image.asset('assets/slides/us_background.png'),
       Padding(
         padding: const EdgeInsets.all(60),
-        child: Row(
+        child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Expanded(
-              child: Container(
-                padding: const EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.2),
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Text(
-                  context.l10n.photographySlideBody,
-                  style: bodyStyle,
-                ),
+            Container(
+              padding: const EdgeInsets.all(10),
+              child: Text(
+                context.l10n.photographySlideTitle,
+                style: headerStyle
               ),
             ),
-            Expanded(
-              child: Align(
-                alignment: FractionalOffset(1, 0.75),
-                child: SizedBox(
-                  width: 450,
-                  height: 410,
-                  child: Image.asset('assets/slides/photography.png'),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(
+                  child: Container(
+                    padding: const EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.white.withOpacity(0.2),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Text(
+                      context.l10n.photographySlideBody,
+                      style: bodyStyle,
+                    ),
+                  ),
                 ),
-              ),
+                Container(
+                  padding: const EdgeInsets.all(10),
+                  child: SizedBox(
+                    width: 450,
+                    height: 410,
+                    child: Image.asset('assets/slides/photography.png'),
+                  ),
+                ),
+              ],
             ),
           ],
         ),
@@ -204,31 +243,41 @@ Widget _buildSoftwareSlide(BuildContext context) {
       Image.asset('assets/slides/us_background.png'),
       Padding(
         padding: const EdgeInsets.all(60),
-        child: Row(
+        child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Expanded(
-              child: Container(
-                padding: const EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.2),
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Text(
-                  context.l10n.softwareSlideBody,
-                  style: bodyStyle,
-                ),
+            Container(
+              padding: const EdgeInsets.all(10),
+              child: Text(
+                context.l10n.softwareSlideTitle,
+                style: headerStyle
               ),
             ),
-            Expanded(
-              child: Align(
-                alignment: FractionalOffset(1, 0.75),
-                child: SizedBox(
-                  width: 450,
-                  height: 410,
-                  child: Image.asset('assets/slides/software.png'),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(
+                  child: Container(
+                    padding: const EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      color: Colors.white.withOpacity(0.2),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Text(
+                      context.l10n.softwareSlideBody,
+                      style: bodyStyle,
+                    ),
+                  ),
                 ),
-              ),
+                Container(
+                  padding: const EdgeInsets.all(10),
+                  child: SizedBox(
+                    width: 450,
+                    height: 410,
+                    child: Image.asset('assets/slides/software.png'),
+                  ),
+                ),
+              ],
             ),
           ],
         ),
