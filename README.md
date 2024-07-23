@@ -1,3 +1,5 @@
+This repository is archived as it is from the installer as it existed prior to Ubuntu Desktop Provision and was under the old Ubuntu Flavor Installer framework and is no longer in use.
+
 # Ubuntu Studio System Installer
 
 Created from [Ubuntu Flavor Installer](https://github.com/canonical/ubuntu-flavor-installer)
